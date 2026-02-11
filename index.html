@@ -46,7 +46,7 @@
         }
         .wave-bottom .shape-fill { fill: #FFFFFF; }
 
-        /* HERO OVERLAY - Adjusted for your specific image brightness */
+        /* HERO OVERLAY */
         .hero-overlay {
             background: linear-gradient(to bottom, rgba(15, 23, 42, 0.7), rgba(0, 74, 153, 0.5));
         }
@@ -118,7 +118,7 @@
     </nav>
 
     <header class="relative bg-brand-dark h-[700px] flex items-center justify-center text-center px-4 overflow-hidden">
-        <div class="absolute inset-0 bg-[url('eight_in_front_trucks.jpg')] bg-cover bg-center"></div>
+        <div class="absolute inset-0 bg-[url('eight_in_front_trucks.png')] bg-cover bg-center"></div>
         <div class="absolute inset-0 hero-overlay"></div>
         
         <div class="relative z-10 max-w-4xl pt-10">
@@ -162,7 +162,7 @@
             
             <div class="md:w-1/2 flex justify-center md:justify-end">
                 <div class="w-64 h-64 md:w-80 md:h-80 rounded-full border-8 border-white shadow-2xl overflow-hidden relative">
-                    <img src="Screenshot 2026-02-09 190818.jpg" class="w-full h-full object-cover" alt="MPWS Team">
+                    <img src="Screenshot 2026-02-09 190818.png" class="w-full h-full object-cover" alt="MPWS Team">
                 </div>
             </div>
         </div>
@@ -243,17 +243,17 @@
         <div class="flex overflow-x-auto gap-4 pb-8 px-4 snap-x justify-center">
             
             <div class="min-w-[300px] md:min-w-[400px] snap-center rounded-xl overflow-hidden border-4 border-white shadow-xl group cursor-pointer relative">
-                <img src="driveway_spray.jpg" class="w-full h-72 object-cover transition transform group-hover:scale-110">
+                <img src="driveway_spray.png" class="w-full h-72 object-cover transition transform group-hover:scale-110">
                 <div class="absolute bottom-0 w-full bg-white p-3 font-bold text-center text-brand-blue uppercase">Residential Restoration</div>
             </div>
 
             <div class="min-w-[300px] md:min-w-[400px] snap-center rounded-xl overflow-hidden border-4 border-brand-cyan shadow-xl transform scale-105 group cursor-pointer relative z-10">
-                <img src="building_wash.jpg" class="w-full h-72 object-cover transition transform group-hover:scale-110">
+                <img src="building_wash.png" class="w-full h-72 object-cover transition transform group-hover:scale-110">
                 <div class="absolute bottom-0 w-full bg-brand-cyan p-3 font-bold text-center text-brand-dark uppercase">Commercial Facades</div>
             </div>
 
             <div class="min-w-[300px] md:min-w-[400px] snap-center rounded-xl overflow-hidden border-4 border-white shadow-xl group cursor-pointer relative">
-                <img src="fleet_wash_govt.jpg" class="w-full h-72 object-cover transition transform group-hover:scale-110">
+                <img src="fleet_wash_govt.png" class="w-full h-72 object-cover transition transform group-hover:scale-110">
                 <div class="absolute bottom-0 w-full bg-white p-3 font-bold text-center text-brand-blue uppercase">Fleet Maintenance</div>
             </div>
         </div>
@@ -380,7 +380,15 @@
                     <div class="flex items-center"><i class="fas fa-map-marker-alt text-brand-blue mr-2 text-xl"></i> <span class="font-bold text-lg">Forest Acres</span></div>
                 </div>
                 <div class="bg-white p-4 rounded-xl shadow-lg transform rotate-2">
-                    <img src="Screenshot 2026-02-06 152212.jpg" class="w-full h-64 object-cover opacity-90" alt="Service Area Map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105934.40938361543!2d-81.25301884179686!3d34.08869680000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8a3794b15c2d3%3A0x6b158098c4b78c9!2sIrmo%2C%20SC!5e0!3m2!1sen!2sus!4v1707338000000!5m2!1sen!2sus" 
+                        width="100%" 
+                        height="300" 
+                        style="border:0; border-radius: 8px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                     <p class="text-center text-xs text-gray-400 mt-2">Serving The Entire Midlands & Beyond</p>
                 </div>
             </div>
@@ -438,7 +446,14 @@
                 <h4 class="font-heading font-black text-xl uppercase mb-6">Location</h4>
                 <div class="bg-white p-1 rounded">
                     <div class="bg-gray-200 h-32 flex items-center justify-center text-gray-500 text-xs font-bold overflow-hidden">
-                        <img src="Screenshot 2026-02-06 152212.jpg" class="w-full h-full object-cover">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.578672078696!2d-81.2334!3d34.0933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8a3794b15c2d3%3A0x6b158098c4b78c9!2sIrmo%2C%20SC!5e0!3m2!1sen!2sus!4v1707338000000!5m2!1sen!2sus" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
                     </div>
                     <div class="p-2 text-slate-800 text-xs font-bold">
                         <i class="fas fa-map-pin text-brand-blue"></i> Midlands Pressure Wash
